@@ -1,6 +1,8 @@
-# AdCampaignTesting
+# Ad Campaign Testing
 
 by Zachary Greenberg  
+
+<p align="center"><img src="images/READMEcover.png" width="400" height="250" /></p>
 
 # Overview
 The two worlds of Marketing and Sales go hand in hand. Often with great marketing, comes great sales. It can be a symbiotic relationship. A way to test your marketing strategy is to over different versions of your marketing ads and pin them against eachother. This will allow to you understand not only which marketing campaign achieved more, but it will allow you to understand what about the marketing campaign was superior to the other. From synthetically generated data, I have set out to test two groups of virtual marketing campaigns right around the holiday season.   
@@ -22,7 +24,13 @@ My data for this mini-project has been synthetically generated utilizing the Pyt
 # EDA
 I performed a basic EDA on the data to discover a slight advantage of Ad Version B over Ad Version A. 
 
-**Will Add Visualizations After**
+<p align="center"><img src="images/DistributionOfClicks.png" width="400" height="250" /></p>
+
+Ad Version B had a greater number of clicks than did Ad Version A.  
+
+<p align="center"><img src="images/AmountSpent.png" width="400" height="250" /></p>
+
+Additionally, the revenue taken in from Ad Verion B was greater than the revenue from Ad Version A.  
 
 # Hypothesis Testing
 I performed 2 different Hypothesis Tests on the data. For the first one, I tested out which ad had the higher amount of clicks:  

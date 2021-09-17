@@ -19,3 +19,25 @@ My data for this mini-project has been synthetically generated utilizing the Pyt
 -clicked_on_ad: whether or not the person clicked on the ad  
 -amount_spent: the amount spent at the store if the person clicked on the ad  
 
+# EDA
+I performed a basic EDA on the data to discover a slight advantage of Ad Version B over Ad Version A. 
+
+**Will Add Visualizations After**
+
+# Hypothesis Testing
+I performed 2 different Hypothesis Tests on the data. For the first one, I tested out which ad had the higher amount of clicks:  
+
+> NULL HYPOTHESIS: There is no difference in performance between version A and B.  
+> ALT HYPOTHESIS: Version B outperformed Version A in terms of clicks.  
+
+I used Fishers Exact test because the outcome of the test involved a binary result. At the significance level of .05, I failed to reject the null hypothesis.  
+
+For the second one, I tested out which ad had the great amount of revenue brought in:  
+
+> NULL HYPOTHESIS: There is no difference in the mean revenue between the ads.  
+> ALT HYPOTHESIS: Version B outperformed Version A in terms of revenue.  
+
+Using a two sample independent t test, with a p-value threshold of .05, I failed to reject this null hypothesis as well. 
+
+
+
